@@ -8,6 +8,7 @@
     "@fortawesome/fontawesome-svg-core": "1.2.34",
     "@fortawesome/free-solid-svg-icons": "5.15.2",
     "@fortawesome/react-fontawesome": "0.1.14",
+    "contentful": "8.1.7",
     "d3-dsv": "1.2.0",
     "index-array-by": "1.2.7",
     "loaders.css": "0.1.2",
@@ -25,6 +26,7 @@
     "semantic-ui-react": "2.0.3"
   },
   "devDependencies": {
+    "babel-eslint": "10.1.0",
     "css-loader": "5.0.2",
     "typescript": "3.3.3"
   },
