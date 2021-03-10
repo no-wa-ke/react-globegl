@@ -4,7 +4,7 @@
     align-items: center;
     z-index: 1;
     // background: url('../../ASSETS/loginpage-bg.jpg');
-    // background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: -40vh 0;
     color: $white;
@@ -13,8 +13,8 @@
     height: 50vh;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    // top: 0;
+    // left: 0;
     animation: bgAnimation 10s ease-in-out alternate-reverse infinite;
     @media screen and (max-width: 700px) {
         flex-flow: column-reverse nowrap;
@@ -45,7 +45,7 @@
     }
     h1 {
         font-weight: 900;
-        font-size: 90px;
+        font-size: 40px;
         line-height: 112px;
         letter-spacing: 0.11em;
         @media screen and (max-width: 1300px) {
@@ -217,4 +217,82 @@
             }
         }
     }
+}
+
+.box_icon {
+    color: #fff;
+}
+
+.line {
+    text-decoration: line-through blink;
+}
+
+.MuiAvatar-colorDefault {
+    color: #fafafa !important;
+    background-color: #000000 !important;
+}
+
+.MuiListItemText-secondary {
+    color: #fafafa !important;
+}
+
+header .scrolldown a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -29px;
+    color: #fff;
+    display: block;
+    height: 42px;
+    width: 42px;
+    font-size: 42px;
+    line-height: 42px;
+    color: #fff;
+    border-radius: 100%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.icon-down-circle:before {
+    content: '\e809';
+}
+
+.timer1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    font-family: sans-serif;
+    // margin-bottom: 40px;
+    align-items: center;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    color: #f22e72;
+    width: 50%;
+    position: absolute;
+    /* max-width: 360px; */
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.timer1 div {
+    font-size: 40px;
+}
+
+.seconds {}
+
+// SkeckFa
+.iframe-content {
+    // position: relative;
+    // width: 100%;
+    // padding: 75% 0 0 0;
+}
+
+.iframe-content iframe {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    margin: -50px 50px 30px -10px;
+    padding: 0px 50px 30px -60px;
 }

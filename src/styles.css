@@ -1,8 +1,7 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    /* text-align: center; */
 }
-
 
 html,
 body,
@@ -20,7 +19,6 @@ body,
     /* overflow: hidden; */
     /* background: #100664; */
 }
-
 
 .box {
     position: absolute;

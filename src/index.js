@@ -11,7 +11,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-
 const rootElement = document.getElementById("root");
 
 const routes = (
@@ -20,6 +19,8 @@ const routes = (
 
 
 ReactDOM.render(
-    routes,
-    rootElement
+    <App/>,
+    document.getElementById("root")
     );
+
+
