@@ -55,8 +55,9 @@
     "homepage": "http://no-wa-ke.github.io/react-globegl",
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build && mv build docs",
-        "test": "react-scripts test",
+        "build": "react-scripts build",
+        "deploy": "npm run build && gh-pages -d build",
+        "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"
     },
     "browserslist": [
