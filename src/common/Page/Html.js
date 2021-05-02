@@ -8,10 +8,9 @@ class Html extends React.Component {
                     <div className="application">
                         <Helmet>
                             <meta charSet="utf-8" />
-                            <title>kido yoji</title>
-                            <link rel="canonical" href="http://mysite.com/example" />
+                            <title>K I D O Y O J I</title>
+                            <link rel="icon" href="icon/favicon.ico" ></link>
                         </Helmet>
-
                     </div>
                 );
               }
@@ -19,17 +18,4 @@ class Html extends React.Component {
 
  export default Html;
 
- //     <div className="application">
-//         <Helmet>
-//             <meta charSet="utf-8" />
-//                 <title>kido yoji</title>
-//                 <head>
 
-//                 <meta
-//                         name="description"
-//                         content=""
-//                 />
-//                 {/* <link rel="icon" type="image/png" sizes="32x32" href="">           */}
-//             </head>   
-//         </Helmet>
-//     </div>

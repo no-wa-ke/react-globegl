@@ -1,14 +1,21 @@
 import React, { useEffect, Suspense, Component, lazy } from 'react';
-import "./styles.css";
+
 
 import Html from "./common/Page/Html.js"
 import Loading from "./common/Loading/Loading.js";
-import LandingPage from "./common/Page/index.js";
 
-import Viewer from "./common/World/Viewer.js"
+// import Contentful  from "./common/Page/Contentful/Contentful.js"
+
+
+
+
+import Blog from "./common/Page/Blog.js"
 import Dividers from "./common/Page/InsetDividers.js"
 import SecondPage from "./common/Page/SecondPage.js"
 import Count from "./common/Page/Count.js"
+import {World} from "./common/Page/World/Earth.js"
+
+
 
 import './App.scss';
 
@@ -18,11 +25,10 @@ const Lazy = lazy(() => new Promise(resolve => {
                 // with an object that has a "default" Component
                 setTimeout(() => {
                     resolve({
-                        default: () => < b > < /b> });
+                        default: () => <b> </b>});
                     }, 2500);
                 }));
 
-            // 1
 class App extends Component {
 
 
@@ -35,13 +41,15 @@ class App extends Component {
             <Html/>
             <Suspense fallback = { <Loading/> } >
                     <Lazy / >
-                     <Viewer/>             */}
+                    {/* <Viewer/> */}
+                    <World/>
             <div className = "App" >
-                <LandingPage / >
+                {/* <Blog/> */}
+
                 <Count/>
-                <Dividers />
-                <SecondPage/>
-                
+                {/* <Dividers /> */}
+                {/* <SecondPage/> */}
+                {/* <Contentful/> */}
             </div>
             </Suspense>
 

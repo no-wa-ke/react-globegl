@@ -1,0 +1,42 @@
+.hover-title {
+    display: inline;
+    pointer-events: auto;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 2.9rem;
+    line-height: 2;
+    color: rgba(255, 63, 63, 0.85);
+}
+
+[data-predefined-style="true"] [local-style="10424272"] bodycopy {
+    font-size: 2.9rem;
+    line-height: 2;
+    color: rgba(255, 63, 63, 0.85);
+}
+
+body .hover-title:hover+.hover-image {
+    display: flex;
+    pointer-events: none;
+}
+
+.hover-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+// .hover-image {
+//     display: none;
+// }
+body .hover-title:hover+.hover-image {
+    display: flex;
+    pointer-events: none;
+}

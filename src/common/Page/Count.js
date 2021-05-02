@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-
-
 import timezz from "timezz";
-
-
 
 class Count extends Component {
 
