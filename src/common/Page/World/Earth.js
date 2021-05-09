@@ -145,7 +145,7 @@ pointAltitude = { 0 }
 
 pointRadius = { 0.04 }
 
-
+// backgroundColor={"#000000"}
 width={window.innerWidth}
 height={window.innerHeight}
 
