@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-globegl/static/css/main.94ed2275.chunk.css",
-    "main.js": "/react-globegl/static/js/main.2c523c07.chunk.js",
-    "main.js.map": "/react-globegl/static/js/main.2c523c07.chunk.js.map",
+    "main.js": "/react-globegl/static/js/main.e278c14d.chunk.js",
+    "main.js.map": "/react-globegl/static/js/main.e278c14d.chunk.js.map",
     "runtime-main.js": "/react-globegl/static/js/runtime-main.f1ca834e.js",
     "runtime-main.js.map": "/react-globegl/static/js/runtime-main.f1ca834e.js.map",
     "static/css/2.373bc5f8.chunk.css": "/react-globegl/static/css/2.373bc5f8.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.373bc5f8.chunk.css",
     "static/js/2.e3f9784f.chunk.js",
     "static/css/main.94ed2275.chunk.css",
-    "static/js/main.2c523c07.chunk.js"
+    "static/js/main.e278c14d.chunk.js"
   ]
 }
