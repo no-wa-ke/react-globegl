@@ -31,6 +31,7 @@
         "react-floating-action-button": "1.0.5",
         "react-globe.gl": "2.6.2",
         "react-helmet": "6.1.0",
+        "react-iframe": "1.8.0",
         "react-loader-spinner": "4.0.0",
         "react-loaders": "3.0.1",
         "react-loads": "9.2.4",
@@ -41,12 +42,16 @@
         "react-scripts": "4.0.2",
         "react-spinners-kit": "1.9.1",
         "react-svg": "11.2.4",
+        "react-threejs": "0.0.4",
         "sass": "1.32.7",
         "semantic-ui-css": "2.4.1",
         "semantic-ui-react": "2.0.3",
-        "timezz": "6.1.1"
+        "three": "0.117.0",
+        "timezz": "6.1.1",
+        "uninstall": "0.0.0"
     },
     "devDependencies": {
+        "@babel/standalone": "7.14.0",
         "babel-eslint": "10.1.0",
         "css-loader": "5.0.2",
         "gh-pages": "3.1.0",

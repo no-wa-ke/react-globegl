@@ -106,7 +106,6 @@ export const World = () => {
     useEffect(() => {
         // aim at continental US centroid
         globeEl.current.pointOfView({ lat: 39.6, lng: -98.5, altitude: 1 });
-
         globeEl.current.controls().autoRotate = true;
         globeEl.current.controls().autoRotateSpeed = 0.3;
 

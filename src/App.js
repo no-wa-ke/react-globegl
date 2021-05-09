@@ -13,8 +13,8 @@ import Blog from "./common/Page/Blog.js"
 import Dividers from "./common/Page/InsetDividers.js"
 import SecondPage from "./common/Page/SecondPage.js"
 import Count from "./common/Page/Count.js"
-import {World} from "./common/Page/World/Earth.js"
-
+import { World } from "./common/Page/World/Earth.js"
+import Viewer from "./common/Page/World/Viewer.js"
 
 
 import './App.scss';
@@ -43,6 +43,7 @@ class App extends Component {
                     <Lazy / >
                     {/* <Viewer/> */}
                     <World/>
+                    {/* <Viewer/> */}
             <div className = "App" >
                 {/* <Blog/> */}
 
