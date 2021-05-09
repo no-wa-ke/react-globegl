@@ -1,5 +1,6 @@
 @import '../SASS/palette';
 @import '../SASS/mixins';
+
 .Login-container {
     align-items: center;
     z-index: 1;
@@ -7,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -40vh 0;
-    color: $white;
+    color: #01082B;
     display: flex;
     // justify-content: space-between;
     height: 50vh;

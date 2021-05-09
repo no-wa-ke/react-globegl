@@ -15,7 +15,7 @@
 // }
 
 body {
-  background: $almost-black;
+  background: #01082B;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -71,7 +71,7 @@ main {
 div.isLoading {
   @include designhub-letters;
   align-items: center;
-  background: $btn-gradient;
+  background:  #01082B;
   border-radius: 10px;
   color: $white;
   display: flex;
