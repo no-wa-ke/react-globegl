@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-globegl/static/css/main.d6493945.chunk.css",
-    "main.js": "/react-globegl/static/js/main.7f94ecc5.chunk.js",
-    "main.js.map": "/react-globegl/static/js/main.7f94ecc5.chunk.js.map",
+    "main.css": "/react-globegl/static/css/main.2948feac.chunk.css",
+    "main.js": "/react-globegl/static/js/main.1dd87f6d.chunk.js",
+    "main.js.map": "/react-globegl/static/js/main.1dd87f6d.chunk.js.map",
     "runtime-main.js": "/react-globegl/static/js/runtime-main.f1ca834e.js",
     "runtime-main.js.map": "/react-globegl/static/js/runtime-main.f1ca834e.js.map",
     "static/css/2.373bc5f8.chunk.css": "/react-globegl/static/css/2.373bc5f8.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.e3f9784f.chunk.js.map": "/react-globegl/static/js/2.e3f9784f.chunk.js.map",
     "index.html": "/react-globegl/index.html",
     "static/css/2.373bc5f8.chunk.css.map": "/react-globegl/static/css/2.373bc5f8.chunk.css.map",
-    "static/css/main.d6493945.chunk.css.map": "/react-globegl/static/css/main.d6493945.chunk.css.map",
+    "static/css/main.2948feac.chunk.css.map": "/react-globegl/static/css/main.2948feac.chunk.css.map",
     "static/js/2.e3f9784f.chunk.js.LICENSE.txt": "/react-globegl/static/js/2.e3f9784f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1ca834e.js",
     "static/css/2.373bc5f8.chunk.css",
     "static/js/2.e3f9784f.chunk.js",
-    "static/css/main.d6493945.chunk.css",
-    "static/js/main.7f94ecc5.chunk.js"
+    "static/css/main.2948feac.chunk.css",
+    "static/js/main.1dd87f6d.chunk.js"
   ]
 }
