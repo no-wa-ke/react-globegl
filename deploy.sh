@@ -11,9 +11,11 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 # #cd docs
 # cd docs
 
+# GitHub Pages
 # https://no-wa-ke.github.io/react-globegl
 # https://qiita.com/yuitnnn/items/11375ea29ec023d19fdf
-# GitHub Pages
+# https://github.com/vasturiano/react-globe.gl
+
 npm run deploy 
 # Add changes to git.
 git add .

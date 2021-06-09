@@ -40,8 +40,6 @@ class Contentful extends React.Component{
           }
 
         {
-
-
           this.state.items.map((item) => (
             <div className="hover-image">
               <img src={item.fields.thumbnail.fields.file.url}/>

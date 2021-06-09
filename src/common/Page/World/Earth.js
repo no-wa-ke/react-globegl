@@ -117,37 +117,37 @@ directionalLight && directionalLight.position.set(1, 1, 1); // change light posi
 
 return ( <
 
-Globe  ref = { globeEl }
+        Globe  ref = { globeEl }
 
-// globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
 
-globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
+        // globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
 
-bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+        bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
 
-// backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        // backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
 
-globeMaterial={globeMaterial}
+        globeMaterial={globeMaterial}
 
-// Dot
+        // Dot
 
-arcsData={arcsData}
+        arcsData={arcsData}
 
-arcColor={'color'}
+        arcColor={'color'}
 
-arcDashLength={() => Math.random()}
+        arcDashLength={() => Math.random()}
 
-arcDashGap={() => Math.random()}
+        arcDashGap={() => Math.random()}
 
-arcDashAnimateTime={() => Math.random() * 40000 + 50}
+        arcDashAnimateTime={() => Math.random() * 40000 + 50}
 
-pointAltitude = { 0 }
+        pointAltitude = { 0 }
 
-pointRadius = { 0.04 }
+        pointRadius = { 0.04 }
 
-backgroundColor={"#01082B"}
-width={window.innerWidth}
-height={window.innerHeight}
+        backgroundColor={"#01082B"}
+        width={window.innerWidth}
+        height={window.innerHeight}
 
 />
 

@@ -6,9 +6,6 @@ import Loading from "./common/Loading/Loading.js";
 
 // import Contentful  from "./common/Page/Contentful/Contentful.js"
 
-
-
-
 import Blog from "./common/Page/Blog.js"
 import Dividers from "./common/Page/InsetDividers.js"
 import SecondPage from "./common/Page/SecondPage.js"
