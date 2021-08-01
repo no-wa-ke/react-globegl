@@ -10,11 +10,9 @@ $ yarn add -D gh-pages
 
 ```json
     "devDependencies": {
-        "@babel/standalone": "7.14.0",
-        "babel-eslint": "10.1.0",
-        "css-loader": "5.0.2",
+        // ...
         "gh-pages": "3.1.0",
-        "typescript": "3.3.3"
+ 
     },
     "homepage": "http://no-wa-ke.github.io/react-globegl",
     "scripts": {
