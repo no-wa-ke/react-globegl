@@ -4,11 +4,11 @@
 ![Earth](https://photos.app.goo.gl/8y3Q8DLfP8sN444GA "Earth")
 
 
-'''json
+```json
 $ yarn add -D gh-pages
-'''
+```
 
-'''json
+```json
     "devDependencies": {
         "@babel/standalone": "7.14.0",
         "babel-eslint": "10.1.0",
@@ -21,7 +21,7 @@ $ yarn add -D gh-pages
         // ...
         "deploy": "npm run build && gh-pages -d 
     },
-'''
+```
 
 [Markdown](https://qiita.com/pure-adachi/items/173f5dda05a391d2b956)
 
